@@ -1,0 +1,676 @@
+<h2>Reporter output</h2><table><tr><td>
+
+ Get path : http://104.199.158.27:8761/</td></tr>
+<tr><td>
+ Response code received : 200</td></tr>
+<tr><td>
+ Response String received : <!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Eureka</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="eureka/css/wro.css">
+
+  </head>
+
+  <body id="one">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href=""><span></span></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="/lastn">Last 1000 since startup</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <div class="container-fluid xd-container">
+<h1>System Status</h1>
+<div class="row">
+  <div class="col-md-6">
+    <table id='instances' class="table table-condensed table-striped table-hover">
+            <tr>
+        <td>Environment</td>
+        <td>test</td>
+      </tr>
+      <tr>
+        <td>Data center</td>
+        <td>default</td>
+      </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <table id='instances' class="table table-condensed table-striped table-hover">
+      <tr>
+        <td>Current time</td>
+        <td>2016-10-26T09:27:36 +0000</td>
+      </tr>
+      <tr>
+        <td>Uptime</td>
+        <td>00:49</td>
+      </tr>
+      <tr>
+        <td>Lease expiration enabled</td>
+        <td>true</td>
+      </tr>
+      <tr>
+        <td>Renews threshold</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td>Renews (last min)</td>
+        <td>12</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+<h1>DS Replicas</h1>
+<ul class="list-group">
+</ul>
+
+      <h1>Instances currently registered with Eureka</h1>
+      <table id='instances' class="table table-striped table-hover">
+        <thead>
+          <tr><th>Application</th><th>AMIs</th><th>Availability Zones</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+              <tr>
+                <td><b>CONFIGSERVER</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://configserver:8888/info" target="_blank">6afaf359b986:configserver:8888</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>GATEWAY</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://gateway:10000/info" target="_blank">c2a182684d5d:gateway:10000</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>MOVIE</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://172.17.0.30:9005/info" target="_blank">cee6446d92a7:movie:9005</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>MOVIESUI</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://172.17.0.32:9006/info" target="_blank">ba351638749f:moviesui:9006</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>RECOMMENDATION</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://172.17.0.29:9003/info" target="_blank">7f7844e58079:recommendation:9003</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>USER</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://172.17.0.31:9000/info" target="_blank">3601203cc6e3:user:9000</a>
+
+                </td>
+              </tr>
+
+        </tbody>
+      </table>
+
+      <h1>General Info</h1>
+
+      <table id='generalInfo' class="table table-striped table-hover">
+        <thead>
+          <tr><th>Name</th><th>Value</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>total-avail-memory</td><td>72mb</td>
+            </tr>
+            <tr>
+              <td>environment</td><td>test</td>
+            </tr>
+            <tr>
+              <td>num-of-cpus</td><td>1</td>
+            </tr>
+            <tr>
+              <td>current-memory-usage</td><td>59mb (81%)</td>
+            </tr>
+            <tr>
+              <td>server-uptime</td><td>00:49</td>
+            </tr>
+            <tr>
+              <td>registered-replicas</td><td></td>
+            </tr>
+            <tr>
+              <td>unavailable-replicas</td><td></td>
+            </tr>
+            <tr>
+              <td>available-replicas</td><td></td>
+            </tr>
+        </tbody>
+      </table>
+
+      <h1>Instance Info</h1>
+
+      <table id='instanceInfo' class="table table-striped table-hover">
+        <thead>
+          <tr><th>Name</th><th>Value</th></tr>
+        <thead>
+        <tbody>
+            <tr>
+              <td>ipAddr</td><td>172.17.0.27</td>
+            </tr>
+            <tr>
+              <td>status</td><td>UP</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+    <script type="text/javascript" src="eureka/js/wro.js" ></script>
+    <script type="text/javascript">
+       $(document).ready(function() {
+         $('table.stripeable tr:odd').addClass('odd');
+         $('table.stripeable tr:even').addClass('even');
+       });
+    </script>
+  </body>
+</html>
+</td></tr>
+<tr><td>
+ Both response code and string are matching with expected output. Hence Passed the test.</td></tr>
+<tr><td>
+
+ Get path : http://104.199.158.27:8761/lastn</td></tr>
+<tr><td>
+ Response code received : 200</td></tr>
+<tr><td>
+ Response String received : <!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <base href="/">
+    <title>Eureka - Last N events</title>
+    <link rel="stylesheet" type="text/css" href="eureka/css/wro.css">
+  </head>
+  <body id="three">
+
+    <!--[if lt IE 7]>
+      <p>You are using an <strong>outdated</strong> browser. Please upgrade your browser to improve your experience.</p>
+    <![endif]-->
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href=""><span></span></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="/lastn">Last 1000 since startup</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+    <div class="container-fluid xd-container">
+<h1>System Status</h1>
+<div class="row">
+  <div class="col-md-6">
+    <table id='instances' class="table table-condensed table-striped table-hover">
+            <tr>
+        <td>Environment</td>
+        <td>test</td>
+      </tr>
+      <tr>
+        <td>Data center</td>
+        <td>default</td>
+      </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <table id='instances' class="table table-condensed table-striped table-hover">
+      <tr>
+        <td>Current time</td>
+        <td>2016-10-26T09:27:37 +0000</td>
+      </tr>
+      <tr>
+        <td>Uptime</td>
+        <td>00:49</td>
+      </tr>
+      <tr>
+        <td>Lease expiration enabled</td>
+        <td>true</td>
+      </tr>
+      <tr>
+        <td>Renews threshold</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td>Renews (last min)</td>
+        <td>12</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+<h1>DS Replicas</h1>
+<ul class="list-group">
+</ul>
+
+
+    <div id="xd-jobs" class="tab-pane active col-md-12">
+        <ul class="nav nav-tabs" role="tablist" id="myTab">
+          <li class="active"><a data-toggle="tab" href="#cancelled">Last 1000 cancelled leases</a></li>
+          <li><a data-toggle="tab" href="#registered">Last 1000 newly registered leases</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane" id="cancelled">
+            <table id='lastNCanceled' class="table table-striped table-hover">
+              <thead>
+                <tr><th>Timestamp</th><th>Lease</th></tr>
+              </thead>
+              <tbody>
+	              <tr><td colspan="2">No results available</td></tr>
+              <tbody>
+            </table>
+          </div>
+          <div class="tab-pane" id="registered">
+            <table id='lastNRegistered' class="table table-striped table-hover">
+              <thead>
+                <tr><th>Timestamp</th><th>Lease</th></tr>
+              </thead>
+              <tbody>
+                    <tr><td>Oct 26, 2016 8:42:17 AM</td><td>MOVIE(cee6446d92a7:movie:9005)</td></tr>
+                    <tr><td>Oct 26, 2016 8:42:17 AM</td><td>USER(3601203cc6e3:user:9000)</td></tr>
+                    <tr><td>Oct 26, 2016 8:42:12 AM</td><td>RECOMMENDATION(7f7844e58079:recommendation:9003)</td></tr>
+                    <tr><td>Oct 26, 2016 8:41:43 AM</td><td>GATEWAY(c2a182684d5d:gateway:10000)</td></tr>
+                    <tr><td>Oct 26, 2016 8:41:34 AM</td><td>MOVIESUI(ba351638749f:moviesui:9006)</td></tr>
+                    <tr><td>Oct 26, 2016 8:40:45 AM</td><td>CONFIGSERVER(6afaf359b986:configserver:8888)</td></tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="eureka/js/wro.js" ></script>
+    <script type="text/javascript">
+      $(function () {
+        $('#myTab a:last').tab('show')
+      })
+    </script>
+  </body>
+</html>
+</td></tr>
+<tr><td>
+ Both response code and string are matching with expected output. Hence Passed the test.</td></tr>
+<tr><td>
+
+ Get path : http://104.199.158.27:8761/ping</td></tr>
+<tr><td>
+ Response code received : 404</td></tr>
+<tr><td>
+ Response String received : {"timestamp":1477474058125,"status":404,"error":"Not Found","message":"No message available","path":"/ping"}</td></tr>
+<tr><td>
+
+ Get path : http://104.199.158.27:8761/health</td></tr>
+<tr><td>
+ Response code received : 200</td></tr>
+<tr><td>
+ Response String received : {"description":"Spring Cloud Eureka Discovery Client","status":"UP","discoveryComposite":{"description":"Spring Cloud Eureka Discovery Client","status":"UP","discoveryClient":{"description":"Spring Cloud Eureka Discovery Client","status":"UP","services":[]},"eureka":{"description":"Remote status from Eureka server","status":"UNKNOWN","applications":{}}},"diskSpace":{"status":"UP","total":105654812672,"free":98012581888,"threshold":10485760},"refreshScope":{"status":"UP"},"hystrix":{"status":"UP"}}</td></tr>
+<tr><td>
+
+ Get path : http://104.199.158.27:8761/hosts/gateway</td></tr>
+<tr><td>
+ Response code received : 404</td></tr>
+<tr><td>
+ Response String received : {"timestamp":1477474058868,"status":404,"error":"Not Found","message":"No message available","path":"/hosts/gateway"}</td></tr>
+<tr><td>
+
+ Get path : http://104.199.158.27:8761/movie/env</td></tr>
+<tr><td>
+ Response code received : 404</td></tr>
+<tr><td>
+ Response String received : {"timestamp":1477474059198,"status":404,"error":"Not Found","message":"No message available","path":"/movie/env"}</td></tr>
+<tr><td>
+
+ Get path : http://104.199.158.27:8761/movie/autoconfig</td></tr>
+<tr><td>
+ Response code received : 404</td></tr>
+<tr><td>
+ Response String received : {"timestamp":1477474059530,"status":404,"error":"Not Found","message":"No message available","path":"/movie/autoconfig"}</td></tr>
+<tr><td>
+
+ Get path : http://104.199.158.27:8761/</td></tr>
+<tr><td>
+ Response code received : 200</td></tr>
+<tr><td>
+ Response String received : <!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Eureka</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="eureka/css/wro.css">
+
+  </head>
+
+  <body id="one">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href=""><span></span></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="/lastn">Last 1000 since startup</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <div class="container-fluid xd-container">
+<h1>System Status</h1>
+<div class="row">
+  <div class="col-md-6">
+    <table id='instances' class="table table-condensed table-striped table-hover">
+            <tr>
+        <td>Environment</td>
+        <td>test</td>
+      </tr>
+      <tr>
+        <td>Data center</td>
+        <td>default</td>
+      </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <table id='instances' class="table table-condensed table-striped table-hover">
+      <tr>
+        <td>Current time</td>
+        <td>2016-10-26T09:27:39 +0000</td>
+      </tr>
+      <tr>
+        <td>Uptime</td>
+        <td>00:49</td>
+      </tr>
+      <tr>
+        <td>Lease expiration enabled</td>
+        <td>true</td>
+      </tr>
+      <tr>
+        <td>Renews threshold</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td>Renews (last min)</td>
+        <td>12</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+<h1>DS Replicas</h1>
+<ul class="list-group">
+</ul>
+
+      <h1>Instances currently registered with Eureka</h1>
+      <table id='instances' class="table table-striped table-hover">
+        <thead>
+          <tr><th>Application</th><th>AMIs</th><th>Availability Zones</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+              <tr>
+                <td><b>CONFIGSERVER</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://configserver:8888/info" target="_blank">6afaf359b986:configserver:8888</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>GATEWAY</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://gateway:10000/info" target="_blank">c2a182684d5d:gateway:10000</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>MOVIE</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://172.17.0.30:9005/info" target="_blank">cee6446d92a7:movie:9005</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>MOVIESUI</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://172.17.0.32:9006/info" target="_blank">ba351638749f:moviesui:9006</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>RECOMMENDATION</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://172.17.0.29:9003/info" target="_blank">7f7844e58079:recommendation:9003</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>USER</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://172.17.0.31:9000/info" target="_blank">3601203cc6e3:user:9000</a>
+
+                </td>
+              </tr>
+
+        </tbody>
+      </table>
+
+      <h1>General Info</h1>
+
+      <table id='generalInfo' class="table table-striped table-hover">
+        <thead>
+          <tr><th>Name</th><th>Value</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>total-avail-memory</td><td>72mb</td>
+            </tr>
+            <tr>
+              <td>environment</td><td>test</td>
+            </tr>
+            <tr>
+              <td>num-of-cpus</td><td>1</td>
+            </tr>
+            <tr>
+              <td>current-memory-usage</td><td>53mb (73%)</td>
+            </tr>
+            <tr>
+              <td>server-uptime</td><td>00:49</td>
+            </tr>
+            <tr>
+              <td>registered-replicas</td><td></td>
+            </tr>
+            <tr>
+              <td>unavailable-replicas</td><td></td>
+            </tr>
+            <tr>
+              <td>available-replicas</td><td></td>
+            </tr>
+        </tbody>
+      </table>
+
+      <h1>Instance Info</h1>
+
+      <table id='instanceInfo' class="table table-striped table-hover">
+        <thead>
+          <tr><th>Name</th><th>Value</th></tr>
+        <thead>
+        <tbody>
+            <tr>
+              <td>ipAddr</td><td>172.17.0.27</td>
+            </tr>
+            <tr>
+              <td>status</td><td>UP</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+    <script type="text/javascript" src="eureka/js/wro.js" ></script>
+    <script type="text/javascript">
+       $(document).ready(function() {
+         $('table.stripeable tr:odd').addClass('odd');
+         $('table.stripeable tr:even').addClass('even');
+       });
+    </script>
+  </body>
+</html>
+</td></tr>
+</table>

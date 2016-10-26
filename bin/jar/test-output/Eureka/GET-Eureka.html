@@ -1,0 +1,341 @@
+<html>
+<head>
+<title>TestNG:  GET-Eureka</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GET-Eureka</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 26 09:27:36 UTC 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (996 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>get </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bluemeric.test.GenerateTest.getTest()'><b>getTest</b><br>Test class: com.bluemeric.test.GenerateTest<br>Parameters: 104.199.158.27:8761, , eureka.txt, eureka<br/>
+<a href="#Output-1632492873" onClick='toggleBox("Output-1632492873", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1632492873" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1632492873">
+
+
+ Get path : http://104.199.158.27:8761/<br/>
+
+ Response code received : 200<br/>
+
+ Response String received : <!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Eureka</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="eureka/css/wro.css">
+
+  </head>
+
+  <body id="one">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href=""><span></span></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="/lastn">Last 1000 since startup</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <div class="container-fluid xd-container">
+<h1>System Status</h1>
+<div class="row">
+  <div class="col-md-6">
+    <table id='instances' class="table table-condensed table-striped table-hover">
+            <tr>
+        <td>Environment</td>
+        <td>test</td>
+      </tr>
+      <tr>
+        <td>Data center</td>
+        <td>default</td>
+      </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <table id='instances' class="table table-condensed table-striped table-hover">
+      <tr>
+        <td>Current time</td>
+        <td>2016-10-26T09:27:36 +0000</td>
+      </tr>
+      <tr>
+        <td>Uptime</td>
+        <td>00:49</td>
+      </tr>
+      <tr>
+        <td>Lease expiration enabled</td>
+        <td>true</td>
+      </tr>
+      <tr>
+        <td>Renews threshold</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td>Renews (last min)</td>
+        <td>12</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+<h1>DS Replicas</h1>
+<ul class="list-group">
+</ul>
+
+      <h1>Instances currently registered with Eureka</h1>
+      <table id='instances' class="table table-striped table-hover">
+        <thead>
+          <tr><th>Application</th><th>AMIs</th><th>Availability Zones</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+              <tr>
+                <td><b>CONFIGSERVER</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://configserver:8888/info" target="_blank">6afaf359b986:configserver:8888</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>GATEWAY</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://gateway:10000/info" target="_blank">c2a182684d5d:gateway:10000</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>MOVIE</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://172.17.0.30:9005/info" target="_blank">cee6446d92a7:movie:9005</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>MOVIESUI</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://172.17.0.32:9006/info" target="_blank">ba351638749f:moviesui:9006</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>RECOMMENDATION</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://172.17.0.29:9003/info" target="_blank">7f7844e58079:recommendation:9003</a>
+
+                </td>
+              </tr>
+              <tr>
+                <td><b>USER</b></td>
+                <td>
+                    <b>n/a</b> (1)
+                </td>
+                <td>
+                    <b></b> (1)
+                </td>
+                <td>
+                    <b>UP</b> (1) -
+                        <a href="http://172.17.0.31:9000/info" target="_blank">3601203cc6e3:user:9000</a>
+
+                </td>
+              </tr>
+
+        </tbody>
+      </table>
+
+      <h1>General Info</h1>
+
+      <table id='generalInfo' class="table table-striped table-hover">
+        <thead>
+          <tr><th>Name</th><th>Value</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>total-avail-memory</td><td>72mb</td>
+            </tr>
+            <tr>
+              <td>environment</td><td>test</td>
+            </tr>
+            <tr>
+              <td>num-of-cpus</td><td>1</td>
+            </tr>
+            <tr>
+              <td>current-memory-usage</td><td>59mb (81%)</td>
+            </tr>
+            <tr>
+              <td>server-uptime</td><td>00:49</td>
+            </tr>
+            <tr>
+              <td>registered-replicas</td><td></td>
+            </tr>
+            <tr>
+              <td>unavailable-replicas</td><td></td>
+            </tr>
+            <tr>
+              <td>available-replicas</td><td></td>
+            </tr>
+        </tbody>
+      </table>
+
+      <h1>Instance Info</h1>
+
+      <table id='instanceInfo' class="table table-striped table-hover">
+        <thead>
+          <tr><th>Name</th><th>Value</th></tr>
+        <thead>
+        <tbody>
+            <tr>
+              <td>ipAddr</td><td>172.17.0.27</td>
+            </tr>
+            <tr>
+              <td>status</td><td>UP</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+    <script type="text/javascript" src="eureka/js/wro.js" ></script>
+    <script type="text/javascript">
+       $(document).ready(function() {
+         $('table.stripeable tr:odd').addClass('odd');
+         $('table.stripeable tr:even').addClass('even');
+       });
+    </script>
+  </body>
+</html>
+<br/>
+
+ Both response code and string are matching with expected output. Hence Passed the test.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.bluemeric.test.GenerateTest@617c74e5</td></tr>
+</table><p>
+</body>
+</html>
